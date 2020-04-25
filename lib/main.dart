@@ -1,6 +1,7 @@
-import 'package:covid_19_app/home_screen/ui/home_screen.dart';
 import 'package:covid_19_app/splash_screen/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'home_screen/ui/dashboard.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
       ),routes: <String, WidgetBuilder>{
       '/splash': (BuildContext context) => SplashScreen(),
-      '/covidPage': (BuildContext context) => Home(),
+      '/covidPage': (BuildContext context) => Dashboard(),
     },
       home: SplashScreen(),
     );

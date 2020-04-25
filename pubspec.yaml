@@ -42,6 +42,9 @@ dependencies:
   flutter_launcher_icons: ^0.7.4
 
   simple_animations: ^1.3.3
+  font_awesome_flutter: ^8.5.0
+  gscarousel: ^0.0.1
+
 
 
 
@@ -68,6 +71,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
      - assets/images/splashimage.jpg
+     - assets/images/covid-2.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

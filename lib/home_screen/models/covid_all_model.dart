@@ -27,7 +27,7 @@ class CovidAllModel extends BaseModel {
         int casesPerOneMillion,
         int deathsPerOneMillion,
         int tests,
-        double testsPerOneMillion,
+//        double testsPerOneMillion,
         int affectedCountries}) {
     this._updated = updated;
     this._cases = cases;
@@ -40,7 +40,7 @@ class CovidAllModel extends BaseModel {
     this._casesPerOneMillion = casesPerOneMillion;
     this._deathsPerOneMillion = deathsPerOneMillion;
     this._tests = tests;
-    this._testsPerOneMillion = testsPerOneMillion;
+//    this._testsPerOneMillion = testsPerOneMillion;
     this._affectedCountries = affectedCountries;
   }
 
@@ -68,9 +68,9 @@ class CovidAllModel extends BaseModel {
       _deathsPerOneMillion = deathsPerOneMillion;
   int get tests => _tests;
   set tests(int tests) => _tests = tests;
-  double get testsPerOneMillion => _testsPerOneMillion;
-  set testsPerOneMillion(double testsPerOneMillion) =>
-      _testsPerOneMillion = testsPerOneMillion;
+//  double get testsPerOneMillion => _testsPerOneMillion;
+//  set testsPerOneMillion(double testsPerOneMillion) =>
+//      _testsPerOneMillion = testsPerOneMillion;
   int get affectedCountries => _affectedCountries;
   set affectedCountries(int affectedCountries) =>
       _affectedCountries = affectedCountries;
@@ -87,7 +87,7 @@ class CovidAllModel extends BaseModel {
     _casesPerOneMillion = json['casesPerOneMillion'];
     _deathsPerOneMillion = json['deathsPerOneMillion'];
     _tests = json['tests'];
-    _testsPerOneMillion = json['testsPerOneMillion'];
+//    _testsPerOneMillion = json['testsPerOneMillion'];
     _affectedCountries = json['affectedCountries'];
   }
 
@@ -104,7 +104,7 @@ class CovidAllModel extends BaseModel {
     data['casesPerOneMillion'] = this._casesPerOneMillion;
     data['deathsPerOneMillion'] = this._deathsPerOneMillion;
     data['tests'] = this._tests;
-    data['testsPerOneMillion'] = this._testsPerOneMillion;
+//    data['testsPerOneMillion'] = this._testsPerOneMillion;
     data['affectedCountries'] = this._affectedCountries;
     return data;
   }

@@ -74,7 +74,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       FadeAnimation(
                           1.8,
                           Padding(
-                            padding: EdgeInsets.only(top: 30, left: 40),
+                            padding: EdgeInsets.only(top: 20, left: 40),
                             child: Center(
                               child: Row(
                                 children: <Widget>[
@@ -134,6 +134,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
           ),
+
           Align(
             alignment: Alignment.topCenter,
             child: ConnectionStatusBar(),
